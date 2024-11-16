@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(black, yellow,green,blue);
+}
+input{
+    font-size: 5px;
+}
+.Container{
+    background-color: lightgray;
+padding: 5px;
+border-radius: 10px;
+width: 50%;
+}
+.Registration{
+    text-align: center;
+    border-bottom: 3px dashed red; 
+}
+form .inputbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+form .inputbox .container2 input{
+height: 15px;
+width: 100%;
+}
+form .inputbox .container2{
+    width: calc(100%2-20px);
+    margin: 3px;
+}
+.lastinput{
+    width: 100%;
+    text-align: center;
+    font-size: 7px;
+    background-color: blue;
+    color: white;
+    border: none;
+    
+}
